@@ -1,0 +1,59 @@
+body{
+    background-color: #B1B2FF;
+
+}
+#header-nav{
+    background-color: #06283D;
+    /* height: 200px; */
+}
+
+#logo-img{
+    background-image: url(logo/image.png);
+    width: 150px;
+    height: 150px;
+}
+header{
+    background-color: #d1daff80;
+
+}
+.nav-title{
+    padding-top: 2rem;
+}
+.food-item{
+    background-color: #d1daff80;
+
+    margin: 1rem 0;
+    padding: 2rem;
+}
+.food{
+margin: 2rem;
+}
+.head{
+    margin-left: 2rem;
+}
+.navbar-brand{
+    font-size: 2.2rem;
+    margin: 0 2rem;
+    color: #8758FF;
+
+}
+.nav-item{
+    font-size: 1.2rem;
+    margin: 0 0.6rem;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    margin: 1rem;
+    font-size: 2.5rem;
+    color: #8758FF;
+}
+.food-item h1{
+    font-size: 1.5rem;
+}
+
+@media (min-width:768px){
+.nav-item{
+    visibility: hidden;
+}
+}
